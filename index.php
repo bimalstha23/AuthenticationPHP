@@ -11,18 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN-FORM</title>
-    <!-- <style>
-        body{
-            background-color: lightblue;
-        }
-        .container{
-            margin-top: 25%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>  -->
+ 
 </head>
 <body>
     <?php
@@ -37,6 +26,9 @@
             password:<input type="password" name="password" placeholder="Enter your password">
             <br>
             <input type="submit" name="submit" value="Login">
+            <p>Don't Have Account?
+                <a href="Register.php">Create Account</a>
+            </p>
         </form>
     </div>
 </body>
